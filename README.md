@@ -2,7 +2,7 @@
 
 ## Objetivo:
 
-Encontrar endereço por meio de busco por CEP.
+Encontrar endereço por meio de busca por CEP.
 
 ## Utilização:
 
@@ -12,4 +12,4 @@ Teste a aplicação no link: ...
 
 ## Considerações:
 
-Projeto desenvoldivo com o propósito de apriomorar minhas habilidades, sobretudo o consumo de API utilizando FETCH.
+Projeto desenvolvido com o propósito de aprimorar minhas habilidades, sobretudo o consumo de API utilizando FETCH.
