@@ -1,0 +1,12 @@
+section {
+  background-color: antiquewhite;
+  margin: 5px;
+  text-align: left;
+  justify-content: center;
+}
+#resultado {
+  background-color: rgb(215, 234, 250);
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+}

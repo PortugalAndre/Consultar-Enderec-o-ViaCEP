@@ -9,15 +9,28 @@
     <title>Consulte seu endereço</title>
   </head>
   <body>
-    <header><h2>Consulte seu endereço através do CEP</h2></header>
+    <header><h2>Consulte seu endereço ou CEP</h2></header>
     <section>
-      <label>Digite um CEP</label>
+      <h4>Encontrar endereço digitando o CEP</h4>
+      <label>Digite um CEP:</label>
       <input type="number" id="cep" />
       <button onclick="consultaEndereco()">Consultar endereço</button>
     </section>
     <br />
-    <div id="resultado"><p></p></div>
 
+    <section>
+      <h4>Encontrar CEP digitando o endereço</h4>
+      <label>Digite o estado:</label>
+      <input type="text" id="uf" placeholder="SP" />
+      <label>Digite a rua:</label>
+      <input type="text" id="rua" placeholder="Ana Jarvis" />
+      <label>Digite a cidade:</label>
+      <input type="text" id="cidade" placeholder="Santo André" />
+
+      <button onclick="consultaCep()">Consultar CEP</button>
+    </section>
+    <br />
+    <div id="resultado"><p></p></div>
     <!-- JavaScript -->
     <script src="./JS/script.js"></script>
   </body>
